@@ -71,19 +71,18 @@ Data Files:
 I recently use this method in another research, and found that losses.py should be carefully designed if some highly abstracted information (such as embeddings) are used for treatments, I will attach the paper if it is accepted.
 
 ## Citing
-```
 Arxiv Version:
-
+```
 @article{yang2024causalmob,
   title={CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events},
   author={Yang, Xiaojie and Ge, Hangli and Wang, Jiawei and Fan, Zipei and Jiang, Renhe and Shibasaki, Ryosuke and Koshizuka, Noboru},
   journal={arXiv preprint arXiv:2412.02155},
   year={2024}
 }
-
+```
 ACM official version:
-
-@inproceedings{10.1145/3690624.3709231,
+```
+@inproceedings{yang2024causalmob,
 author = {Yang, Xiaojie and Ge, Hangli and Wang, Jiawei and Fan, Zipei and Jiang, Renhe and Shibasaki, Ryosuke and Koshizuka, Noboru},
 title = {CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events},
 year = {2025},
