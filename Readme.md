@@ -3,10 +3,10 @@
 This repository contains the Python source code for **CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events**.
 
 ## 🎉 Acceptance 🎉 (2024.11.17)
-This research has been accepted by KDD 2025! Now pre-print can be accessed with this [link](https://arxiv.org/abs/2412.02155)
+This research has been accepted by KDD 2025! Now pre-print can be accessed with this [link](https://arxiv.org/abs/2412.02155). Official version [link](https://dl.acm.org/doi/10.1145/3690624.3709231) 
 
 ## ❗❗ IMPORTANT UPDATE ❗❗ (2024.10.09)
-We updated sample data (noise processed) in our research with a 25-day length (D = 25, as larger data can not be uploaded). For data description, please find the bottom of this page.
+We updated sample data (noise processed, can not be used as real world data) in our research with a 25-day length (D = 25, as larger data can not be uploaded). For data description, please find the bottom of this page.
 
 ## Environments
 
@@ -68,14 +68,35 @@ Data Files:
 5. **poi_distribution.pk**: A dict Points of Interest (POI) distribution in each region amd for each region code 17 types of POI are counted. We collected POI data from Open Streat Map ([OSM](https://www.openstreetmap.org/)). Specifically, considering pravicy issues (Region code aligns other data), we provided processed poi_data (D regions × C categories) in run.py.
 
 ## Personal Suggestions
-To be updated
+I recently use this method in another research, and found that losses.py should be carefully designed if some highly abstracted information (such as embeddings) are used for treatments, I will attach the paper if it is accepted.
 
 ## Citing
 ```
+Arxiv Version:
+
 @article{yang2024causalmob,
   title={CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events},
   author={Yang, Xiaojie and Ge, Hangli and Wang, Jiawei and Fan, Zipei and Jiang, Renhe and Shibasaki, Ryosuke and Koshizuka, Noboru},
   journal={arXiv preprint arXiv:2412.02155},
   year={2024}
+}
+
+ACM official version:
+
+@inproceedings{10.1145/3690624.3709231,
+author = {Yang, Xiaojie and Ge, Hangli and Wang, Jiawei and Fan, Zipei and Jiang, Renhe and Shibasaki, Ryosuke and Koshizuka, Noboru},
+title = {CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events},
+year = {2025},
+isbn = {9798400712456},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3690624.3709231},
+doi = {10.1145/3690624.3709231},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
+pages = {1773–1784},
+numpages = {12},
+keywords = {causal inference, human mobility prediction, llms},
+location = {Toronto ON, Canada},
+series = {KDD '25}
 }
 ```
