@@ -83,19 +83,10 @@ Arxiv Version:
 ACM official version:
 ```
 @inproceedings{yang2024causalmob,
-author = {Yang, Xiaojie and Ge, Hangli and Wang, Jiawei and Fan, Zipei and Jiang, Renhe and Shibasaki, Ryosuke and Koshizuka, Noboru},
 title = {CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events},
-year = {2025},
-isbn = {9798400712456},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3690624.3709231},
-doi = {10.1145/3690624.3709231},
+author = {Yang, Xiaojie and Ge, Hangli and Wang, Jiawei and Fan, Zipei and Jiang, Renhe and Shibasaki, Ryosuke and Koshizuka, Noboru},
 booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
 pages = {1773–1784},
-numpages = {12},
-keywords = {causal inference, human mobility prediction, llms},
-location = {Toronto ON, Canada},
-series = {KDD '25}
+year = {2025}
 }
 ```
