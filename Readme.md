@@ -5,7 +5,7 @@ This repository contains the Python source code for **CausalMob: Causal Human Mo
 ## 🎉 Acceptance 🎉 (2024.11.17)
 This research has been accepted by KDD 2025! Now pre-print can be accessed with this [link](https://arxiv.org/abs/2412.02155). Official version [link](https://dl.acm.org/doi/10.1145/3690624.3709231) 
 
-## ❗❗ IMPORTANT UPDATE ❗❗ (2024.10.09)
+## UPDATE (2024.10.09)
 We updated sample data (noise processed, can not be used as real world data) in our research with a 25-day length (D = 25, as larger data can not be uploaded). For data description, please find the bottom of this page.
 
 ## Environments
