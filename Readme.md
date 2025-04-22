@@ -68,7 +68,7 @@ Data Files:
 5. **poi_distribution.pk**: A dict Points of Interest (POI) distribution in each region amd for each region code 17 types of POI are counted. We collected POI data from Open Streat Map ([OSM](https://www.openstreetmap.org/)). Specifically, considering pravicy issues (Region code aligns other data), we provided processed poi_data (D regions × C categories) in run.py.
 
 ## Personal Suggestions
-I recently use this method in another research, and found that losses.py should be carefully designed if some highly abstracted information (such as embeddings) are used for treatments, I will attach the paper if it is accepted.
+We recently use this method in another research, and found that losses.py should be carefully designed if some highly abstracted information (such as embeddings) are used for treatments, we will attach the paper if it is accepted.
 
 ## Citing
 Arxiv Version:
