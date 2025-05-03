@@ -1,4 +1,4 @@
-# Official Implementation of CausalMob (KDD2025)
+# CausalMob (KDD2025): Official Implementation
 
 This repository contains the Python source code for **CausalMob: Causal Human Mobility Prediction with LLMs-derived Human Intentions toward Public Events**.
 
